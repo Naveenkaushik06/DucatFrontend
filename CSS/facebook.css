@@ -6,16 +6,16 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-color:whitesmoke;
+    background-color:rgba(197, 68, 68, 0.123);
     padding-left: 10vw;
     padding-top: 30vh;
-  
+
 }
 .leftside{
     width: 40vw;
     height: 40vh;
-  
     /* background-color: gold; */
+    
 }
 .fb{
     width: 40vw;
@@ -49,9 +49,7 @@ img{
 .item1{
     width: 28vw;
     height: 9vh;
-    
     /* background-color: lightsalmon; */   
-  
 }
 
 #nm{
@@ -64,7 +62,6 @@ img{
     border: 1px solid rgb(93, 93, 102);
     border-radius:10px;
     border-width: thin;
-     
 }
 input:focus{
     outline: none !important;
@@ -75,10 +72,8 @@ input:focus{
     width: 28vw;
     height: 9vh;
     /* background-color:red; */
-    padding-top: 1vh;
-    /* margin-top: 2px; */ 
     position: relative;
-    top: 1vh;
+    top: 2vh;
 }
 #ps{
     width: 28vw;
@@ -88,7 +83,7 @@ input:focus{
     border-radius: .37em;
     opacity: .5;
     border: 1px solid rgb(93, 93, 102);
-    border-radius:10px
+    border-radius:10px;
 }
 input:focus{
     outline: none !important;
@@ -152,9 +147,7 @@ span:hover{
     border-bottom: 1px solid rgb(168, 152, 155);
     width: 28vw;
     position: relative;
-    top: 8vh;
-    /* padding-right: 1vw;
-    padding-top: 2vh; */
+    top: 8vh;`
 
 }
 
@@ -204,4 +197,5 @@ span{
 }
 span:hover{
     text-decoration: underline;
+    color: #0e73f7;
 }
